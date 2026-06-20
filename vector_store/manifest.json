@@ -1,0 +1,7 @@
+{
+  "backend": "fallback_parquet",
+  "collection_name": "cfpb_complaints",
+  "source_parquet": "data\\raw\\complaint_embeddings.parquet",
+  "rows": 112,
+  "note": "ChromaDB was not installed, so chunks and embeddings were persisted as parquet for the local fallback retriever."
+}

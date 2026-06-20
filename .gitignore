@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Data (large files)
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+*.parquet
+
+# Vector store (large binary)
+vector_store/chroma/
+vector_store/faiss/
+vector_store/*.index
+vector_store/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model cache
+.cache/
+models/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Secrets
+.env
+*.key
